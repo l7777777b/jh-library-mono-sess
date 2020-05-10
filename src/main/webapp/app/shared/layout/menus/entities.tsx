@@ -13,6 +13,45 @@ export const EntitiesMenu = props => (
     id="entity-menu"
     style={{ maxHeight: '80vh', overflow: 'auto' }}
   >
+    <MenuItem icon="asterisk" to="/publisher">
+      <Translate contentKey="global.menu.entities.publisher" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/author">
+      <Translate contentKey="global.menu.entities.author" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/client">
+      <Translate contentKey="global.menu.entities.client" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/book">
+      <Translate contentKey="global.menu.entities.book" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/borrowed-book">
+      <Translate contentKey="global.menu.entities.borrowedBook" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/blog">
+      <Translate contentKey="global.menu.entities.blog" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/post">
+      <Translate contentKey="global.menu.entities.post" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/tag">
+      <Translate contentKey="global.menu.entities.tag" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/category">
+      <Translate contentKey="global.menu.entities.category" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/product">
+      <Translate contentKey="global.menu.entities.product" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/customer">
+      <Translate contentKey="global.menu.entities.customer" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/address">
+      <Translate contentKey="global.menu.entities.address" />
+    </MenuItem>
+    <MenuItem icon="asterisk" to="/wish-list">
+      <Translate contentKey="global.menu.entities.wishList" />
+    </MenuItem>
     {/* jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here */}
   </NavDropdown>
 );
